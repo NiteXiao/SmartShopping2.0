@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:orientation="vertical">
+    <include layout="@layout/title_mine"/>
+    <Button
+        android:id="@+id/button_lianjie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接蓝牙"
+        />
+    <Button
+        android:id="@+id/quanbu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="全部商品"/>
+</LinearLayout>

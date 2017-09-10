@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">智能购物</string>
+
+    <array name="titleArray">
+        <item>主页</item>
+        <item>搜索</item>
+        <item>购物车</item>
+        <item>我的信息</item>
+    </array>
+</resources>

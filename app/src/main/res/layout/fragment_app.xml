@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_app"/>
+    <ListView
+
+        android:id="@+id/list_view1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+            <TextView
+                android:id="@+id/zongjia"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="总价为："
+                android:textSize="20dp"
+
+                android:layout_marginLeft="20dp"
+                android:gravity="center|left"/>
+            <Button
+                android:id="@+id/jiesuan"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:text="结算"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/toobar_background"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
